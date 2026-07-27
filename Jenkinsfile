@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PATH = "/home/prajwal/.nvm/versions/node/v25.5.0/bin:/usr/local/bin:/usr/bin:/bin:${env.PATH}"
+       
         JENKINS_NODE_COOKIE = 'dontKillMe'
         BUILD_ID = 'dontKillMe'
     }
